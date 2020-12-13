@@ -89,6 +89,7 @@ h5 {
   border: 2px solid rgb(185, 161, 161);
   border-radius: 5px;
   width: 60%;
+  max-width: 526px;
 }
 
 .github__image {

@@ -51,5 +51,6 @@ export default {
 .user__card {
   width: 60%;
   margin-top: 5px;
+  max-width: 526px;
 }
 </style>
