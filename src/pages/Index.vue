@@ -107,4 +107,11 @@ h5 {
   width: 100%;
   margin-top: 6%;
 }
+
+@media (max-width: 430px) {
+  .container__search {
+    width: 100%;
+    border: none;
+  }
+}
 </style>

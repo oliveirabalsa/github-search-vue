@@ -34,8 +34,8 @@ export default {
     },
 
     stars: {
-      type: String,
-      default: '',
+      type: Number,
+      default: 0,
       required: true,
     },
 
@@ -52,5 +52,11 @@ export default {
   width: 60%;
   margin-top: 5px;
   max-width: 526px;
+}
+
+@media (max-width: 430px) {
+  .user__card {
+    width: 100%;
+  }
 }
 </style>
